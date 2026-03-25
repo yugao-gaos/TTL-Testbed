@@ -1,0 +1,7 @@
+{
+  "name": "Testbed",
+  "description": "sandbox testbed for dev",
+  "version": "0.1.0",
+  "minPlayers": 2,
+  "maxPlayers": 4
+}
