@@ -1,7 +1,9 @@
-// Game rules script for Testbed
-export default {
-  onEnter(ctx) { ctx.log("Game started!"); },
-  onInput(ctx, input) {},
-  checkTransition(ctx) { return null; },
-  onExit(ctx) {},
+exports.onTick = function(ctx, dt) {
+  // Template global rules hook.
+};
+
+exports.onEvent = function(type, payload, ctx) {
+  if (type === 'entity_spawned') {
+    ctx.log('spawned', payload);
+  }
 };
